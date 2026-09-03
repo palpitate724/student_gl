@@ -1,0 +1,21 @@
+//UserFanKui //统一返回信息
+[ status    | data ]
+[ 返回状态码  | 响应数据]
+[ int       | Object]
+
+//UserStu //登录账号信息
+[ sid    | sname      | spassword | sjiaose]
+[ 登录id  | 登录账号名字 | 登录密码    | 登录账号角色]
+[ String | String     | String     | Int ]
+
+
+//UserStuInto //学生信息类
+[ sid    | sname   | sage     | ssex    | ssion ]
+[ 学生id  | 学生姓名  | 学生年龄  | 学生性别  | 学生专业 ]
+[ Sreing | String  | Inteager | String  | String ]
+
+
+//UserStuSel //学生信息查询
+[ sid   | sname   | sage   | ssex    | ssion  | sdelete    | ts      | shul ]
+[ 学生id | 学生姓名 | 学生年龄 | 学生性别 | 学生专业 | 是否逻辑删除  | 分页页码 | 每页数量 ]
+[ string | string | integer | string | string | integer    | integer | integer ]
